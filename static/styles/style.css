@@ -1,0 +1,55 @@
+body {background-color: #cccccc;}
+
+.top_heading {
+  margin-left: 2%
+}
+
+.prediction {
+  color: blue;
+  font-size: 45px
+}
+
+.outer {
+  margin-left: 2%;
+  margin-right: 2%
+}
+
+.note {
+  color: blue
+}
+
+.input_area {
+  width: 25%;
+  background-color: rgb(146, 146, 146);
+  padding: 5px;
+  margin-bottom: 2px
+}
+
+.btn {
+  margin-top: 5px;
+  background-color: #e7e7e7;
+  color: black;
+  border: 1px solid #000000;
+  border_radius: 5px;
+  padding: 5px
+}
+
+.btn:hover {
+  transition-duration: 0.5s;
+  background-color: #474747;
+  color: white;
+  cursor: pointer;
+}
+
+#container div {
+  display: inline-block;
+  width:190px
+}
+
+label {
+  display: block
+}
+
+input, label {
+  margin: .4rem 0;
+}

@@ -1,0 +1,13 @@
+
+click
+Flask
+gunicorn
+itsdangerous
+Jinja2
+joblib
+MarkupSafe
+numpy
+scikit-learn
+scipy
+threadpoolctl
+Werkzeug
