@@ -1,0 +1,21 @@
+==> 2022-09-15 00:40:36 <==
+# cmd: C:\Users\12176\anaconda3\Scripts\conda-script.py create -p virtualenv python
+# conda version: 4.9.2
++defaults/noarch::tzdata-2022c-h04d1e81_0
++defaults/noarch::wheel-0.37.1-pyhd3eb1b0_0
++defaults/win-64::bzip2-1.0.8-he774522_0
++defaults/win-64::ca-certificates-2022.07.19-haa95532_0
++defaults/win-64::certifi-2022.6.15-py310haa95532_0
++defaults/win-64::libffi-3.4.2-hd77b12b_4
++defaults/win-64::openssl-1.1.1q-h2bbff1b_0
++defaults/win-64::pip-22.1.2-py310haa95532_0
++defaults/win-64::python-3.10.4-hbb2ffb3_0
++defaults/win-64::setuptools-63.4.1-py310haa95532_0
++defaults/win-64::sqlite-3.39.2-h2bbff1b_0
++defaults/win-64::tk-8.6.12-h2bbff1b_0
++defaults/win-64::vc-14.2-h21ff451_1
++defaults/win-64::vs2015_runtime-14.27.29016-h5e58377_2
++defaults/win-64::wincertstore-0.2-py310haa95532_2
++defaults/win-64::xz-5.2.5-h8cc25b3_1
++defaults/win-64::zlib-1.2.12-h8cc25b3_3
+# update specs: ['python']

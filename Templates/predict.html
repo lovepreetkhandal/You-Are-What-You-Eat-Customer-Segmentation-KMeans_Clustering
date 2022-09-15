@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Besley:wght@900&family=IBM+Plex+Sans+Thai:wght@100&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>Clustering application</title>
+  </head>
+
+  <style>
+    body {
+      font-family: 'IBM Plex Sans Thai', serif;
+      font-size: 14px;
+    }
+  </style>
+
+  <body>
+
+    <div class="prediction">
+      <div class="top-heading">
+        <b>
+
+          {{ result_value}}
+
+        </b>
+      </div>
+    </div>
+
+  </body>
