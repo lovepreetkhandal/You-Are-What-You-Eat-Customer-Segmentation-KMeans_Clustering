@@ -1,10 +1,10 @@
 import numpy as np
-from flask import Flask, request, render_template, url_for
+from flask import Flask, request, jsonify, render_template, url_for
 import pickle
 
 from scipy.spatial import distance
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='Templates')
 
 Scaler = pickle.load(open('norm_scaler.pkl', 'rb'))
 
