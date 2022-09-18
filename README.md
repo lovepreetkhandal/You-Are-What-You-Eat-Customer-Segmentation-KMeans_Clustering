@@ -1,5 +1,5 @@
 
-# You-Are-What-You-Eat_Customer-Segmentation (KMeans_Clustering)
+# You-Are-What-You-Eat-Customer-Segmentation (KMeans_Clustering)
 ![image](https://user-images.githubusercontent.com/100878908/190882867-f6c96482-e2e6-4c9e-841e-afc5be92c351.png)
 
 
