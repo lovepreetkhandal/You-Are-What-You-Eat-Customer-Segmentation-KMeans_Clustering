@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Besley:wght@900&family=IBM+Plex+Sans+Thai:wght@100&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>Clustering application</title>
+  </head>
+
+  <body>
+    <div>
+            <h1>Customer_Clustering</h1>
+
+            <h2> This application predicts the customer segment based on their monthly spending cost on Four products, namely Dairy, Meat, Fruit and vegetables.</h2>
+
+       <form action="{{ url_for('getprediction')}}"method="post">
+           <div class='input_area'>
+           <label for="Dairy">Dairy</label>
+          <input type="text" name="Dairy" placeholder="Dairy" required="required"
+                 min="1" max="100">
+               </div>
+
+           <div class='input_area'>
+           <label for="Fruit">Fruit</label>
+          <input type="text" name="Fruit" placeholder="Fruit" required="required"
+                 min="1" max="100">
+                </div>
+
+           <div class='input_area'>
+           <label for=Meat">Meat</label>
+          <input type="text" name="Meat" placeholder="Meat" required="required"
+                 min="1" max="100">
+                </div>
+
+           <div class='input_area'>
+           <label for="Vegetables">Vegetables</label>
+          <input type="text" name="Vegetables" placeholder="Vegetables" required="required"
+                 min="1" max="100">
+                </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-large">getprediction</button>
+        </form>
+   
+      <br>
+      <br>
+      {{ output }}
+
+    </div>
+
+       <p>
+        Author: Lovepreet Singh<br>
+      </p>
+
+    
+  </body>
+</html>
